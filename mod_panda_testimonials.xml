@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.8" client="site" method="upgrade">
+    <name>MOD_PANDA_TESTIMONIALS</name>
+    <creationDate>28.03.2019</creationDate>
+    <author>Pavel</author>
+    <authorEmail>bamboo2panda@gmail.com</authorEmail>
+    <authorUrl>http://your.url.com</authorUrl>
+    <copyright>A copyright</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+    <description>MOD_PANDA_TESTIMONIALS_XML_DESCRIPTION</description>
+
+    <files>
+        <filename module="mod_panda_testimonials">mod_panda_testimonials.php</filename>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+        <filename>mod_panda_testimonials.xml</filename>
+        <filename>helper.php</filename>
+    </files>
+    <media folder="dist" destination="mod_panda_testimonials">
+        <filename>assets/owl.carousel.css</filename>
+        <filename>assets/owl.carousel.min.css</filename>
+        <filename>assets/owl.theme.default.css</filename>
+        <filename>assets/owl.theme.default.min.css</filename>
+        <filename>assets/owl.theme.green.css</filename>
+        <filename>assets/owl.theme.green.min.css</filename>
+        <filename>assets/owl.video.play.png</filename>
+        <filename>assets/ajax-loader.gif</filename>
+        <filename>assets/bootstrap/css/bootstrap.min.css</filename>
+        <filename>assets/bootstrap/css/bootstrap-grid.min.css</filename>
+        <filename>assets/bootstrap/css/bootstrap-reboot.min.css</filename>
+        <filename>assets/bootstrap/js/bootstrap.bundle.min.js</filename>
+        <filename>assets/bootstrap/js/bootstrap.min.js</filename>
+        <filename>assets/uikit/js/uikit.min.js</filename>
+        <filename>assets/uikit/css/uikit.css</filename>
+
+        <filename>owl.carousel.js</filename>
+        <filename>owl.carousel.min.js</filename>
+    </media>
+
+    <!-- Update servers -->
+    <updateservers>
+        <server type="extension" priority="1" name="mod_panda_testimonials">
+            https://mcrkpo.ru/mod_panda_testimonials.xml
+        </server>
+    </updateservers>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="slides"
+                        type="subform"
+                        label="MOD_PANDA_TESTIMONIALS_SLIDES_LABEL"
+                        description="MOD_PANDA_TESTIMONIALS_SLIDES_DESCRIPTION"
+                        multiple="1"
+                        min="1"
+                        max="100"
+                >
+                    <form>
+                        <field
+                                name="usephoto"
+                                type="radio"
+                                label="MOD_PANDA_TESTIMONIALS_USE_PHOTO_LABEL"
+                                description=""
+                                class="btn-group btn-group-yesno"
+                                default="1"
+                        >
+                            <option value="1">JYES</option>
+                            <option value="0">JNO</option>
+                        </field>
+                        <field
+                                name="photo"
+                                type="media"
+                                label="MOD_PANDA_TESTIMONIALS_PHOTO_LABEL"
+                        />
+                        <field
+                                name="name"
+                                type="text"
+                                label="MOD_PANDA_TESTIMONIALS_NAME_LABEL"
+                        />
+                        <field
+                                name="testimonial"
+                                type="textarea"
+                                label="MOD_PANDA_TESTIMONIALS_TESTIMONIAL_LABEL"
+                                description="MOD_PANDA_TESTIMONIALS_DESCRIPTION_LABEL"
+                                cols="40"
+                                rows="8"
+                        />
+                    </form>
+                </field>
+            </fieldset>
+            <fieldset name="style">
+                <field name="lib" type="radio" default="nolib" label="Select a lib" description="" class="btn-group">
+                    <option value="nolib">No lib</option>
+                    <option value="bootstrap">Bootstrap</option>
+                    <option value="uikit">Uikit</option>
+                </field>
+                <field name="css" type="radio" default="bootstrap" label="Select a css" description="" class="btn-group">
+                    <option value="bootstrap">Bootstrap</option>
+                    <option value="uikit">Uikit</option>
+                </field>
+                <field
+                        name="autoplay"
+                        type="radio"
+                        label="MOD_PANDA_TESTIMONIALS_AUTOPLAY_LABEL"
+                        description=""
+                        class="btn-group btn-group-yesno"
+                        default="1"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field
+                        name="show-dots"
+                        type="radio"
+                        label="MOD_PANDA_TESTIMONIALS_SHOW_DOTS_LABEL"
+                        description=""
+                        class="btn-group btn-group-yesno"
+                        default="1"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field
+                        name="show-arrows"
+                        type="radio"
+                        label="MOD_PANDA_TESTIMONIALS_SHOW_ARROWS_LABEL"
+                        description=""
+                        class="btn-group btn-group-yesno"
+                        default="1"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field
+                        name="autoplay-speed"
+                        type="text"
+                        default="3000"
+                        size="10"
+                        label="MOD_PANDA_TESTIMONIALS_AUTOPLAY_SPEED_LABEL"
+                        filter="integer"
+                />
+                <field
+                        name="slides-per-page"
+                        type="text"
+                        default="1"
+                        size="2"
+                        label="MOD_PANDA_TESTIMONIALS_TESTIMONIALS_PER_SLIDE_LABEL"
+                        filter="integer"
+                />
+                <field
+                        name="photo-size"
+                        type="text"
+                        default="100"
+                        size="10"
+                        label="MOD_PANDA_TESTIMONIALS_PHOTO_WIDTH_LABEL"
+                        filter="integer"
+                />
+                <field
+                        name="corner-radius"
+                        type="text"
+                        default="0"
+                        size="2"
+                        label="MOD_PANDA_TESTIMONIALS_CORNER_RADIUS_LABEL"
+                        filter="integer"
+                />
+                <field
+                        name="photo-border-size"
+                        type="integer"
+                        default="0"
+                        first="0"
+                        last="10"
+                        step="1"
+                        label="MOD_PANDA_TESTIMONIALS_PHOTO_BORDER_SIZE_LABEL"
+                        filter="integer"
+                />
+                <field
+                        name="photo-border-color"
+                        type="color"
+                        format="hex"
+                        label="MOD_PANDA_TESTIMONIALS_PHOTO_BORDER_COLOR_LABEL"
+
+                />
+                <field
+                        name="background-color"
+                        type="color"
+                        format="hex"
+                        label="MOD_PANDA_TESTIMONIALS_BACKGROUND_COLOR_LABEL"
+                />
+
+            </fieldset>
+        </fields>
+        <languages>
+            <language tag="en-GB">language/en-GB/en-GB.mod_panda_testimonials.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.mod_panda_testimonials.sys.ini</language>
+            <language tag="ru-RU">language/ru-RU/ru-RU.mod_panda_testimonials.ini</language>
+            <language tag="ru-RU">language/ru-RU/ru-RU.mod_panda_testimonials.sys.ini</language>
+        </languages>
+    </config>
+</extension>
