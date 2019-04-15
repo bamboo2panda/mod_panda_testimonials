@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa167169-7bf5-4df8-8982-3ef4c8fe1a65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes/PHP Class Doc Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes/PHP Field Doc Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes/PHP File Header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes/PHP Function Doc Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mod_panda_testimonials.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/uikit/css/uikit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/uikit/js/uikit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/en-GB/en-GB.mod_panda_testimonials.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/en-GB/en-GB.mod_panda_testimonials.sys.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/en-GB/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/ru-RU/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/ru-RU/ru-RU.mod_panda_testimonials.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/ru-RU/ru-RU.mod_panda_testimonials.sys.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod_panda_testimonials.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod_panda_testimonials.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpl/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpl/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,91 +208,6 @@
               <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
               <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="uikit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="uikit" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="uikit" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="owl.carousel.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="language" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="language" type="462c0819:PsiDirectoryNode" />
-              <item name="en-GB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="language" type="462c0819:PsiDirectoryNode" />
-              <item name="ru-RU" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_panda_testimonials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_panda_testimonials" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -406,12 +262,12 @@
       <workItem from="1554101943285" duration="805000" />
       <workItem from="1554110960400" duration="16138000" />
       <workItem from="1554895339144" duration="600000" />
-      <workItem from="1555315748496" duration="7853000" />
+      <workItem from="1555315748496" duration="8473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36395000" />
+    <option name="totallyTimeSpent" value="37015000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,7 +279,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
