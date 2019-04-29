@@ -2,18 +2,17 @@
 /**
  * @package    mod_panda_testimonials
  *
- * @author     Pavel <your@email.com>
- * @copyright  A copyright
+ * @author     Pavel <bamboo2panda@gmail.com>
+ * @copyright
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
- * @link       http://your.url.com
+ * @link       http://pandatestimonials.2dpo.ru
  */
+
 
 //use Joomla\CMS\Helper\ModuleHelper;
 require_once __DIR__ . '/helper.php';
 
 defined('_JEXEC') or die;
-
-//$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 
 $slides = ModPandaTestimonialsHelper::getSlides($params);
 $name = ModPandaTestimonialsHelper::getName($params);

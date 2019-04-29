@@ -1,14 +1,22 @@
 <?php
 /**
- * @package     ${NAMESPACE}
- * @subpackage
+ * @package    mod_panda_testimonials
  *
- * @copyright   A copyright
- * @license     A "Slug" license name e.g. GPL2
+ * @author     Pavel <bamboo2panda@gmail.com>
+ * @copyright
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @link       http://pandatestimonials.2dpo.ru
  */
 
 class ModPandaTestimonialsHelper
 {
+	/**
+	 * @param $params
+	 *
+	 * @return mixed
+	 *
+	 * @since version
+	 */
 	public static function getSlides($params)
 	{
 		$slides = $params->get('slides');
@@ -16,6 +24,13 @@ class ModPandaTestimonialsHelper
 		return $slides;
 	}
 
+	/**
+	 * @param $params
+	 *
+	 * @return string
+	 *
+	 * @since version
+	 */
 	public static function getName($params)
 	{
 		$name = htmlspecialchars($params->get('name'));
@@ -23,6 +38,11 @@ class ModPandaTestimonialsHelper
 		return $name;
 	}
 
+	/**
+	 *
+	 *
+	 * @since version
+	 */
 	public static function getBootstrap()
 	{
 
@@ -33,12 +53,25 @@ class ModPandaTestimonialsHelper
 		$document->addScript(JURI::root(). 'media/mod_panda_testimonials/assets/bootstrap/js/bootstrap.bundle.js');
 		$document->addScript(JURI::root(). 'media/mod_panda_testimonials/assets/bootstrap/js/bootstrap.js');
 	}
+
+	/**
+	 *
+	 *
+	 * @since version
+	 */
 	public static function getUikit()
 	{
 		$document = JFactory::getDocument();
 		$document->addStyleSheet(JURI::root() . 'media/mod_panda_testimonials/assets/uikit/css/uikit.css');
 		$document->addScript(JURI::root(). 'media/mod_panda_testimonials/assets/uikit/js/uikit.min.js');
 	}
+
+	/**
+	 *
+	 * @return stdClass
+	 *
+	 * @since version
+	 */
 	public static function getBootstrapParams(){
 		$css = new stdClass();
 		$css->row = 'row';

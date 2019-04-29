@@ -2,11 +2,12 @@
 /**
  * @package    mod_panda_testimonials
  *
- * @author     Pavel <your@email.com>
- * @copyright  A copyright
+ * @author     Pavel <bamboo2panda@gmail.com>
+ * @copyright
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
- * @link       http://your.url.com
+ * @link       http://pandatestimonials.2dpo.ru
  */
+
 
 defined('_JEXEC') or die;
 
@@ -16,22 +17,6 @@ $document = JFactory::getDocument();
 $document->addStyleSheet(JURI::root(). 'media/mod_panda_testimonials/assets/owl.carousel.min.css');
 $document->addStyleSheet(JURI::root() . 'media/mod_panda_testimonials/assets/owl.theme.default.min.css');
 $document->addScript(JURI::root(). 'media/mod_panda_testimonials/owl.carousel.min.js');
-
-//if ($params->get('bootstrap-css') == 1) {
-//	$document->addStyleSheet(JURI::root() . 'media/mod_panda_testimonials/assets/bootstrap/bootstrap.min.css');
-//	$document->addStyleSheet(JURI::root() . 'media/mod_panda_testimonials/assets/bootstrap/bootstrap-grid.min.css');
-//	$document->addStyleSheet(JURI::root() . 'media/mod_panda_testimonials/assets/bootstrap/bootstrap-reboot.min.css');
-//
-//}
-//if ($params->get('bootstrap-js') == 1) {
-//	$document->addScript(JURI::root(). 'media/mod_panda_testimonials/assets/bootstrap/js/bootstrap.bundle.js');
-//	$document->addScript(JURI::root(). 'media/mod_panda_testimonials/assets/bootstrap/js/bootstrap.js');
-//}
-//$document->addStyleSheet(JURI::root() . 'media/mod_panda_testimonials/assets/owl.theme.green.min.css');
-
-
-// Config view
-
 
 echo '<div class="owl-carousel owl-theme">';
 foreach ($slides as $slide){
