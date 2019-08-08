@@ -8,11 +8,9 @@
  * @link       http://pandatestimonials.2dpo.ru
  */
 
-
-//use Joomla\CMS\Helper\ModuleHelper;
-require_once __DIR__ . '/helper.php';
-
 defined('_JEXEC') or die;
+
+require_once __DIR__ . '/helper.php';
 
 $slides = ModPandaTestimonialsHelper::getSlides($params);
 $name = ModPandaTestimonialsHelper::getName($params);

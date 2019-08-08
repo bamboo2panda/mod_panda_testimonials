@@ -4,7 +4,7 @@
     <creationDate>28.03.2019</creationDate>
     <author>Pavel</author>
     <authorEmail>bamboo2panda@gmail.com</authorEmail>
-    <authorUrl>http://your.url.com</authorUrl>
+    <authorUrl>http://pandatestimonial.2dpo.ru</authorUrl>
     <copyright>A copyright</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <version>1.0</version>
@@ -41,7 +41,7 @@
     <!-- Update servers -->
     <updateservers>
         <server type="extension" priority="1" name="mod_panda_testimonials">
-            https://mcrkpo.ru/mod_panda_testimonials.xml
+            http://pandatestimonial.2dpo.ru/update/mod_panda_testimonials.xml
         </server>
     </updateservers>
 
@@ -91,6 +91,20 @@
                 </field>
             </fieldset>
             <fieldset name="style">
+                <field
+                        name="slider_header"
+                        type="text"
+                        default=""
+                        size="50"
+                        label="MOD_PANDA_TESTIMONIALS_SLIDER_HEADER_LABEL"
+                />
+                <field
+                        name="moduleclass_sfx"
+                        type="textarea"
+                        label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                        description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+                        rows="3"
+                />
                 <field name="lib" type="radio" default="nolib" label="Select a lib" description="" class="btn-group">
                     <option value="nolib">No lib</option>
                     <option value="bootstrap">Bootstrap</option>
@@ -112,7 +126,7 @@
                     <option value="0">JNO</option>
                 </field>
                 <field
-                        name="show-dots"
+                        name="show_dots"
                         type="radio"
                         label="MOD_PANDA_TESTIMONIALS_SHOW_DOTS_LABEL"
                         description=""
@@ -123,7 +137,7 @@
                     <option value="0">JNO</option>
                 </field>
                 <field
-                        name="show-arrows"
+                        name="show_arrows"
                         type="radio"
                         label="MOD_PANDA_TESTIMONIALS_SHOW_ARROWS_LABEL"
                         description=""
@@ -134,7 +148,7 @@
                     <option value="0">JNO</option>
                 </field>
                 <field
-                        name="autoplay-speed"
+                        name="autoplay_speed"
                         type="text"
                         default="3000"
                         size="10"
@@ -142,7 +156,7 @@
                         filter="integer"
                 />
                 <field
-                        name="slides-per-page"
+                        name="slides_per_page"
                         type="text"
                         default="1"
                         size="2"
@@ -150,7 +164,7 @@
                         filter="integer"
                 />
                 <field
-                        name="photo-size"
+                        name="photo_size"
                         type="text"
                         default="100"
                         size="10"
@@ -158,7 +172,7 @@
                         filter="integer"
                 />
                 <field
-                        name="corner-radius"
+                        name="corner_radius"
                         type="text"
                         default="0"
                         size="2"
@@ -166,7 +180,7 @@
                         filter="integer"
                 />
                 <field
-                        name="photo-border-size"
+                        name="photo_border_size"
                         type="integer"
                         default="0"
                         first="0"
@@ -176,20 +190,21 @@
                         filter="integer"
                 />
                 <field
-                        name="photo-border-color"
+                        name="photo_border_color"
                         type="color"
                         format="hex"
                         label="MOD_PANDA_TESTIMONIALS_PHOTO_BORDER_COLOR_LABEL"
 
                 />
                 <field
-                        name="background-color"
+                        name="background_color"
                         type="color"
                         format="hex"
                         label="MOD_PANDA_TESTIMONIALS_BACKGROUND_COLOR_LABEL"
                 />
 
             </fieldset>
+
         </fields>
         <languages>
             <language tag="en-GB">language/en-GB/en-GB.mod_panda_testimonials.ini</language>

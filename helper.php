@@ -8,6 +8,9 @@
  * @link       http://pandatestimonials.2dpo.ru
  */
 
+defined('_JEXEC') or die;
+
+
 class ModPandaTestimonialsHelper
 {
 	/**
